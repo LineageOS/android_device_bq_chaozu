@@ -17,16 +17,16 @@
 
 -include device/bq/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/bq/tenshi
+DEVICE_PATH := device/bq/chaozu
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Aquaris_U_Plus,tenshi
+TARGET_OTA_ASSERT_DEVICE := Aquaris_U,chaozu
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_tenshi_defconfig
+TARGET_KERNEL_CONFIG := lineage_chaozu_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # inherit from the proprietary version
--include vendor/bq/tenshi/BoardConfigVendor.mk
+-include vendor/bq/chaozu/BoardConfigVendor.mk

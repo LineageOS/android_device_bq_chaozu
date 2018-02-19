@@ -56,9 +56,9 @@ vendor/lib/libbtnv.so
 # BQ
 etc/permissions/bq.software.bqservices.system.xml
 etc/permissions/bq.software.qcom.camera.full_support.xml
-etc/permissions/bq.software.qcom.m.tenshi.xml
+etc/permissions/bq.software.qcom.m.chaozu.xml
 etc/permissions/bq.software.qcom.m.xml
-etc/permissions/bq.software.qcom.n.tenshi.xml
+etc/permissions/bq.software.qcom.n.chaozu.xml
 etc/permissions/bq.software.qcom.n.xml
 
 # CNE

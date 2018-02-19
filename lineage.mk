@@ -18,8 +18,8 @@
 # Inherit framework first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from tenshi device
-$(call inherit-product, device/bq/tenshi/device.mk)
+# Inherit from chaozu device
+$(call inherit-product, device/bq/chaozu/device.mk)
 
 # Inherit from common device
 $(call inherit-product, device/bq/msm8937-common/msm8937.mk)
@@ -29,18 +29,18 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := bq
-PRODUCT_DEVICE := tenshi
-PRODUCT_NAME := lineage_tenshi
+PRODUCT_DEVICE := chaozu
+PRODUCT_NAME := lineage_chaozu
 PRODUCT_BRAND := bq
-PRODUCT_MODEL := Aquaris U Plus
+PRODUCT_MODEL := Aquaris U
 PRODUCT_MANUFACTURER := bq
 
 # Set product device & name
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   PRODUCT_NAME=tenshi
+   PRODUCT_NAME=chaozu
 
 PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=bq/tenshi/tenshi:7.1.1/NMF26F/1509102682:user/release-keys \
-    PRIVATE_BUILD_DESC="tenshi-user 7.1.1 NMF26F 2.4.3_20171027-1300 release-keys"
+    BUILD_FINGERPRINT=bq/chaozu/chaozu:7.1.1/NMF26F/1509102792:user/release-keys \
+    PRIVATE_BUILD_DESC="chaozu-user 7.1.1 NMF26F 2.4.3_20171027-1302 release-keys"

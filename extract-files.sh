@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=tenshi
+DEVICE=chaozu
 VENDOR=bq
 
 # Load extract_utils and do some sanity checks

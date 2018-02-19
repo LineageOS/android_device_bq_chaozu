@@ -17,6 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),tenshi)
+ifeq ($(TARGET_DEVICE),chaozu)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

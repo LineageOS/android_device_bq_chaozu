@@ -16,7 +16,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/bq/tenshi/tenshi-vendor.mk)
+$(call inherit-product-if-exists, vendor/bq/chaozu/chaozu-vendor.mk)
 
 # Init
 PRODUCT_PACKAGES += \

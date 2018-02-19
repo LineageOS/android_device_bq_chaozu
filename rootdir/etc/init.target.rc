@@ -67,7 +67,7 @@ on init
    write /sys/class/android_usb/android0/f_rndis/manufacturer bq
    write /sys/class/android_usb/android0/f_rndis/vendorID 2A47
    write /sys/class/android_usb/android0/iManufacturer bq
-   write /sys/class/android_usb/android0/iProduct "Aquaris U Plus"
+   write /sys/class/android_usb/android0/iProduct "Aquaris U"
 
 # Allow usb charging to be disabled peristently
 on property:persist.usb.chgdisabled=1
