@@ -317,11 +317,6 @@ vendor/lib/libsecureui_svcsock.so
 vendor/lib/libssd.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/mediadrm/libwvdrmengine.so
-
-# Fingerprint
-lib/hw/fingerprint.msm8937.so
-lib/lib_fpc_tac_shared.so
-
 # FM
 bin/fm_qsoc_patches
 
