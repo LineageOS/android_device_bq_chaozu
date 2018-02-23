@@ -489,6 +489,9 @@ vendor/lib/libwms.so
 vendor/lib/libconnctrl.so
 vendor/lib/libQtiTether.so
 
+# NFC
+vendor/firmware/libpn548ad_fw.so
+
 # Perf
 bin/iop
 bin/msm_irqbalance

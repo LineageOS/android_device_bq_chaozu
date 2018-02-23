@@ -28,5 +28,9 @@ TARGET_KERNEL_CONFIG := lineage_chaozu_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# NFC
+BOARD_NFC_CHIPSET := pn548
+TARGET_USES_NQ_NFC := true
+
 # inherit from the proprietary version
 -include vendor/bq/chaozu/BoardConfigVendor.mk
